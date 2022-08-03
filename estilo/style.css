@@ -55,7 +55,7 @@ header > p{
     margin: auto;
     padding: 0px 10px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.46);
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 nav{
     background-color: var(--cor5);
@@ -75,9 +75,10 @@ nav >a:hover{
     color: var(--cor5);
 }
 main{
-    min-width: 300px;
+    min-width: 3px;
     max-width: 1000px;
-    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
     margin-bottom: 30px;
     padding: 20px;
     background-color: white;
@@ -90,7 +91,7 @@ main > img{
     
 }
 main img.pequena{
-    max-width: 350px;
+    max-width: 300px;
     display: block;
     margin: auto;
 
